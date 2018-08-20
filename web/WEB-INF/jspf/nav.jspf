@@ -1,0 +1,40 @@
+<%-- any content can be specified here e.g.: --%>
+<%@page import="com.unionbank.password.processor.Supercontrol"%>
+<%@page import="org.datacontract.schemas._2004._07.ubn_security.UserProfile"%>
+<%
+	Supercontrol ctrl = new Supercontrol();
+	try {
+		String uname = (String) session.getAttribute("username");
+		if (uname == null) {
+			response.sendRedirect("login.jsp");
+		}
+		System.out.println("Navigation >> " + uname);
+	} catch (Exception e) {
+		System.out.println("Error in Header >> " + e.getMessage());
+	}
+%>
+<form method="post" action="supercontrol.jsp" id="superform" name="superform">
+    <section class="banner" role="banner">
+        <header id="header">
+            <div class="header-content clearfix">
+                <a class="logo" href="#"><img src="images/ubn.png" alt=""></a>
+                <nav class="navigation" role="navigation">
+                    <ul class="primary-nav">
+                        <li><a href="welcome.jsp">Home</a></li>
+                        <li><a href="#works">Works</a></li>
+                            <% try {
+									Boolean isMT = (Boolean) session.getAttribute("isMT");
+									if (isMT != null) {%>
+                        <li><a href="updateinfo.jsp">Update Profile</a></li>
+                            <%}
+								} catch (Exception e) {
+								}%>
+                        <li><a style="font-weight: bold; color: #843534">${sessionScope.username}</a></li>
+                        <li><a href="supercontrol.jsp?command=signout">Sign Out</a></li>
+                    </ul>
+                </nav>
+                <a href="#" class="nav-toggle">Menu<span></span></a>
+            </div><!-- header content -->
+        </header><!-- header -->
+    </section>
+    <!-- banner -->
