@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://ubniisapps:8141/AppSmsService/Administration.svc?wsdl" uri="src/conf/xml-resources/web-service-references/Administration/wsdl/ubniisapps_8141/AppSmsService/Administration.svc.wsdl"/>
+    <system systemId="http://ubniisapps:8141/AppSmsService/Administration.svc?xsd=xsd0" uri="src/conf/xml-resources/web-service-references/Administration/wsdl/ubniisapps_8141/AppSmsService/Administration.svc.xsd_xsd0.xsd"/>
+    <system systemId="http://ubniisapps:8141/AppSmsService/Administration.svc?xsd=xsd1" uri="src/conf/xml-resources/web-service-references/Administration/wsdl/ubniisapps_8141/AppSmsService/Administration.svc.xsd_xsd1.xsd"/>
+    <system systemId="http://ubniisapps:8141/AppSmsService/Administration.svc?xsd=xsd2" uri="src/conf/xml-resources/web-service-references/Administration/wsdl/ubniisapps_8141/AppSmsService/Administration.svc.xsd_xsd2.xsd"/>
+    <system systemId="http://ubniisapps:8141/AppSmsService/Administration.svc?xsd=xsd3" uri="src/conf/xml-resources/web-service-references/Administration/wsdl/ubniisapps_8141/AppSmsService/Administration.svc.xsd_xsd3.xsd"/>
+    <system systemId="http://ubniisapps:8141/AppSmsService/Administration.svc?xsd=xsd4" uri="src/conf/xml-resources/web-service-references/Administration/wsdl/ubniisapps_8141/AppSmsService/Administration.svc.xsd_xsd4.xsd"/>
+    <system systemId="http://ubniisapps:8141/AppSmsService/Administration.svc?wsdl=wsdl0" uri="src/conf/xml-resources/web-service-references/Administration/wsdl/ubniisapps_8141/AppSmsService/Administration.svc.wsdl_wsdl0.wsdl"/>
+    <system systemId="http://devops-22:8080/AccountFlexServiceFcubs/SecurityResetService?wsdl" uri="src/conf/xml-resources/web-service-references/SecurityResetService/wsdl/devops-22_8080/AccountFlexServiceFcubs/SecurityResetService.wsdl"/>
+    <system systemId="http://devops-22:8080/AccountFlexServiceFcubs/SecurityResetService?xsd=1" uri="src/conf/xml-resources/web-service-references/SecurityResetService/wsdl/devops-22_8080/AccountFlexServiceFcubs/SecurityResetService.xsd_1.xsd"/>
+</catalog>
