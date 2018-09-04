@@ -35,8 +35,8 @@
       </wsimport-options>
     </client>
     <client name="SecurityResetService">
-      <wsdl-url>http://devops-22:8080/AccountFlexServiceFcubs/SecurityResetService?wsdl</wsdl-url>
-      <local-wsdl-file>devops-22_8080/AccountFlexServiceFcubs/SecurityResetService.wsdl</local-wsdl-file>
+      <wsdl-url>http://10.65.0.114:7001/PasswordResetService/SecurityResetService?WSDL</wsdl-url>
+      <local-wsdl-file>10.65.0.114_7001/PasswordResetService/SecurityResetService.wsdl</local-wsdl-file>
       <package-name>com.union.gateway</package-name>
       <catalog-file>catalog.xml</catalog-file>
       <wsimport-options>
