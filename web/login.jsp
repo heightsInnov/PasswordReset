@@ -56,10 +56,6 @@
                         <span class="input-group-addon"><i class="icon_profile"></i></span>
                         <input name="txtusername" type="text" class="form-control" placeholder="Username" autofocus>
                     </div>
-					<div class="input-group">
-                        <span class="input-group-addon"><i class="icon_key_alt"></i></span>
-                        <input name="txttoken" type="password" class="form-control" placeholder="Token">
-                    </div>
                     <div class="input-group">
                         <span class="input-group-addon"><i class="icon_lock-open_alt"></i></span>
                         <input name="txtpassword" type="password" class="form-control" placeholder="Password">
